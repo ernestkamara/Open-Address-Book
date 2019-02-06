@@ -1,0 +1,28 @@
+{
+  "name": "open-address-book",
+  "version": "1.0.0",
+  "description": "An open RESTful Address Book API with NodeJs & Express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "restfull",
+    "json",
+    "joi",
+    "express",
+    "mongodb"
+  ],
+  "author": "Ernest Saidu Kamara",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13"
+  },
+  "devDependencies": {
+    "joi": "^14.3.1",
+    "nodemon": "^1.18.9"
+  }
+}
